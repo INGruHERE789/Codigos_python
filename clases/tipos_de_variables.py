@@ -7,3 +7,4 @@ print (type (())) #Tupla
 print (type ([])) #Lista
 print (type ({})) #Diccionario
 print (type (set())) #Conjunto
+print (None)#Variable vacia
