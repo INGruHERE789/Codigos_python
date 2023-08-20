@@ -18,7 +18,7 @@ def get_poblacion():
     for row in tabla.find_all('tr'):
         aux = []
         for ele in row.find_all(['th', 'td']):
-            dato = (ele.text.replace("\xa0", ""))
+            dato = (ele.text.replace("\xa0", " "))
             x = ele.find('span', attrs={"style":"display:none;"})
             if x :
                 aux.append(x.text)
